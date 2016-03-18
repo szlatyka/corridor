@@ -1,22 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package corridor;
+
+import back.Music;
+import front.Window;
+import java.io.IOException;
+import javafx.stage.Stage;
 
 /**
  *
- * @author Szlatyka
+ * @author Peter
  */
-public class Corridor {
+public class Corridor extends javafx.application.Application {
 
-	/**
-	 * @param args the command line arguments
-	 */
-	public static void main(String[] args) {
-		// TODO code application logic here
-		test();
-	}
-	
+    public static void main(String[] args) throws IOException {
+        Window a = new Window();
+        //Music m = new Music(false);
+        //m.playmusic();
+        //m.start();
+    }
+
+    @Override public void start(Stage primaryStage) throws Exception {}
 }
